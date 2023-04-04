@@ -34,3 +34,13 @@ if(idade <= 12){
 } else{
     console.log("Você é um idoso.")
 }
+
+//Questão 5
+let usuario = prompt("Digite o nome de usuário: ")
+let senha = prompt("Digite a sua senha: ")
+
+if(usuario == "admin" && senha == "1234"){
+    console.log("Login realizado com sucesso.")
+} else{
+    console.log("Houve falha na autentificação. Tente Novamente.")
+}
