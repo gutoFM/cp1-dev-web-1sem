@@ -44,3 +44,20 @@ if(usuario == "admin" && senha == "1234"){
 } else{
     console.log("Houve falha na autentificação. Tente Novamente.")
 }
+
+//Questão 6
+let notas = []
+let soma = 0
+
+for (let i = 1; i <=7; i++){
+    notas.push(parseFloat(prompt("Digite a sua nota: ")))
+    soma += notas[i-1];
+}
+
+let media = soma/7
+
+if (media >= 6){
+    console.log("Você foi aprovado!")
+} else{
+    console.log("Você foi reprovado!")
+}
