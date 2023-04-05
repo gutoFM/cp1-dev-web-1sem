@@ -86,7 +86,7 @@ let text = "O LUGAR VIRA TECNOLOGIA"
 document.write(text.replace("LUGAR", "MUNDO"))
 
 //Questão 9
-let numString = "123,456"
-let numFloat = parseFloat(numString)
-let numArrend = numFloat.toFixed(2)
+let numString = "123.456";
+let numFloat = parseFloat(numString);
+let numArrend = numFloat.toFixed(2);
 console.log(numArrend)
