@@ -80,3 +80,7 @@ document.write("Seu curso: ", curso)
 document.write("<br></br>")
 document.write("O ano: ", ano)
 document.write("<br></br>")
+
+//Questão 8
+let text = "O LUGAR VIRA TECNOLOGIA"
+document.write(text.replace("LUGAR", "MUNDO"))
