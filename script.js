@@ -61,3 +61,22 @@ if (media >= 6){
 } else{
     console.log("Você foi reprovado!")
 }
+
+//Questão 7
+document.write("<br></br>")
+document.write("Informações: ")
+document.write("<br></br>")
+let nome = prompt("Digite seu nome: ")
+let age = parseInt(prompt("Digite sua idade: "))
+let curso = prompt("Digite seu curso: ")
+let ano = prompt("Digite o ano: ")
+
+document.write("<br></br>")
+document.write("Seu nome: ", nome)
+document.write("<br></br>")
+document.write("Sua idade: ", age)
+document.write("<br></br>")
+document.write("Seu curso: ", curso)
+document.write("<br></br>")
+document.write("O ano: ", ano)
+document.write("<br></br>")
